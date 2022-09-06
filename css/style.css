@@ -1,0 +1,46 @@
+body {
+  background-color: whitesmoke;
+  font-family: "Kanit", sans-serif;
+}
+
+header {
+  height: 50px;
+}
+
+nav {
+  height: 50px;
+}
+
+main .hook {
+  height: calc(100vh - 100px);
+}
+
+.box {
+  width: calc(100% / 4 - 100px);
+  margin: 10px 50px;
+}
+
+.box:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #778899;
+}
+
+select {
+  cursor: pointer;
+}
+
+.blue {
+  color: blue;
+}
+.green {
+  color: green;
+}
+
+.orange {
+  color: orange;
+}
+
+i {
+  font-size: 35px;
+}
